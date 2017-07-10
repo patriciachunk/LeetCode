@@ -47,4 +47,17 @@ Daily record for LeetCode solution using Python 3.
     * two pointers
     * dictionary
     * binary search
+    
+### July 10, 2017
+1. Rotate array (189) - easy
+    * List indexing
+    * nums[:] = nums[length-k:]+nums[:length-k]
+2. Number of 1 bits (191) - easy
+    * bin(): convert an integer number to a binary string
+3. House Robber(198) - easy
+    * xrange() and range() difference: xrange not supported in Python 3 any longer
+    * dynamic programming
+    * f(0) = nums[0]
+        f(1) = max(num[0], num[1])
+        f(k) = max( f(k-2) + nums[k], f(k-1) )
 
